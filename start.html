@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="start_page.css?v=1">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="logo">
+                <h1>CHAT ROOM</h1>
+                <p>by Jahnavi, Ayush, Saransh</p>
+            </div>
+            <div class="nav-buttons">
+                <button class="nav-btn" id="login">Log In</button>
+                <button class="nav-btn register" id="register">Register</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <h2>JOIN and CHAT</h2>
+            <p>
+                Welcome to the ultimate hangout zone! 🌟 Connect, chat, and vibe with people who 
+                share your interests. Whether you're here to share ideas, make friends, or just 
+                have fun, this is the place to be. Dive in and let the conversations flow!
+            </p>
+            <div class="action-buttons">
+                <button class="action-btn" id="login1">Log In</button>
+                <button class="action-btn register" id="register1">Register</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="blurred-card-section">
+        <div class="blurred-card">
+                <video src="assets/video/site_work.mp4" width="1200px" class="video-edit" controls autoplay loop muted ></video>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <center>
+                    <h3>About Us</h3>
+                    <p>Batch - B6</p>
+                    <p>Jahnavi Sharma - 23103161</p>
+                    <p>Ayush Jindal - 23103162</p>
+                    <p>Saransh Gupta - 23103158</p>
+                </center>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Chat Room. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        document.getElementById("login").addEventListener("click", function () {
+            window.location.href = "http://localhost/DSW%20Project%20Sem-3/chat%20room/login.php";
+        });
+        document.getElementById("register").addEventListener("click", function () {
+            window.location.href = "http://localhost/DSW%20Project%20Sem-3/chat%20room/register.php";
+        });
+        document.getElementById("login1").addEventListener("click", function () {
+            window.location.href = "http://localhost/DSW%20Project%20Sem-3/chat%20room/login.php";
+        });
+        document.getElementById("register1").addEventListener("click", function () {
+            window.location.href = "http://localhost/DSW%20Project%20Sem-3/chat%20room/register.php";
+        });
+    </script>
+</body>
+</html>
